@@ -1,0 +1,149 @@
+/*
+membuat css
+
+*/
+ 
+.navbar-header{
+	border: 4px;
+	/*box-shadow: 0px 2px 8px 0px #333;*/
+
+}
+.navbar-default{
+background-color: #FFFFFF;
+box-shadow: 0px 2px 8px 0px #333;
+}
+
+#wrapper{
+	width: 100%;
+	/*background: #191970;*/
+
+
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	box-shadow: 0px 2px 8px 0px #333;
+
+}
+.navbar{
+	margin-bottom: 0px;
+
+}
+.navbar-side{
+	background : #191970;
+	margin-top: 10px;
+	height: 100%;
+
+}
+.navbar-side ul {
+	padding: 0px;
+	margin: -2px 0px 0px;
+
+}
+.navbar-side ul li{
+ border-bottom: 1px solid rgba(107, 108, 109, 0.19);
+
+}
+.navbar-side ul li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	transition: all 200ms ease-in;
+
+}
+
+
+.navbar-side ul li a:hover 
+{
+color: #191970;
+
+}
+.navbar-side ul li a:focus
+{
+	color:#293949;
+}
+.navbar-side ul li a:focus i
+{
+	color:#293949;
+}
+.navbar-side ul li a span
+{
+	display: inline-block;
+}
+.navbar-side .tr-tree > .tr-tree-menu
+{
+	padding: 0px;
+	margin:0px;
+	list-style: none;
+	display: none;
+}
+.navbar-side .tr-tree > .tr-tree-menu li a
+{
+	padding: 10px 0px 10px 32px;
+	display: block;
+	font-size: 13px;
+}
+.navbar-side .tr-tree > .tr-tree-menu li a:hover
+{
+	background: #f4f4f4;
+	text-decoration: none;
+}
+.navbar-side .tr-tree > .tr-tree-menu li.active a
+{
+	background: #f9f9f9;
+	color: #222;
+}
+
+#page-wrapper{
+	padding: 10px;
+	background: #f3f3f3;
+
+
+}
+#page-inner{
+	background: #fff; 
+	padding : 10px;
+
+}
+#footer{
+	 height:50px;
+    line-height:50px;
+    background:#333;
+    background-color: #191970;
+    margin-bottom: 5px;
+
+
+}
+/*.panel-footer{
+	background : #191970;
+		padding: 15px;
+		margin-bottom: 2px;
+
+
+	
+
+}*/
+
+/*spesifik css ke dekstop*/
+@media(min-width: 768px)
+{
+	#page-wrapper
+	{
+
+		margin: 0 0 0 200px;
+		padding: 10px;
+		min-height: 100%;
+
+	}
+	#page-inner{
+		min-height: 1300px;
+	}
+	.navbar-side
+	{
+		width: 200px;
+		position: absolute;
+		z-index: 1;
+		min-height: 1300px;
+
+
+	}
+}
